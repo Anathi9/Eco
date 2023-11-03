@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap E-commerce</title>
+    <title>Eco</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="https://i.postimg.cc/0yXmGBsP/shopping-7.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="https://i.postimg.cc/VvQjzvwZ/xpage-Build-a-package-webp-pagespeed-ic-h-Wieko-N2-S0.webp" type="image/x-icon">
 </head>
 <body>
    
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg bg-body-secondary sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img src="https://i.postimg.cc/0yXmGBsP/shopping-7.webp" loading="lazy" class="img-fluid" alt="logo"></a>
+          <a class="navbar-brand" href="./index.html"><img src="https://i.postimg.cc/VvQjzvwZ/xpage-Build-a-package-webp-pagespeed-ic-h-Wieko-N2-S0.webp" loading="lazy" class="img-fluid" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,27 +24,134 @@
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#About">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our products</a>
+                <a class="nav-link" href="#Our products">Our products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">checkout</a>
+                <a class="nav-link" href="#checkout">checkout</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="#contact">contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Admin</a>
+                <a class="nav-link" href="#Admin">Admin</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <main class="container-fluid">
+       <section class="container" id="Home">
+        <div class="row vh-100 justify-content-center align-items-center">
+        <h1 class="display-1">
+            Welcome
+            <span>to Yummy Meals</span>
+        </h1>
 
-      </main>
+       </div>
+     <div class="row">
+         <h3 class="display-3">
+          product features
+        </h3>
+    </div>
+
+    <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators bg-success">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.postimg.cc/grFvsJrb/x-Beef-Stiryfry-550x550-jpg-pagespeed-ic-2i4-S2z063711.webp" class="d-block w-50 mx-auto" loading="lazy" alt="Laptop 1">
+                <div class="carousel-caption opacity-75 bg-secondary d-none d-md-block">
+                  <h5>Beef stifry with Basmati</h5>
+                  <p>Tender beef strips served on a bed of deliciously-seasoned julienne vegetables, with only 224 calories per meal! Our Beef Stir Fry is a well-portioned, low-calorie favorite!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.postimg.cc/kgjy37pK/xbeef-mincewithbroccolicauliflower-550x550-jpg-pagespeed-ic-zdja-AMT2v.webp" class="d-block w-50 mx-auto" loading="lazy" alt="Laptop 2">
+                <div class="carousel-caption opacity-75 bg-secondary d-none d-md-block">
+                  <h5>Mince with Broccoli and cauliflower Mix</h5>
+                  <p>Health has never tasted this great! Lean beef mince, topped with grated mozzarella and accompanied by freshly steamed broccoli and cauliflower. A healthy and tasty dish, the perfect combo!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.postimg.cc/0y3J0j4W/x-Meatballs-Ratatouille-Pasta-550x550-jpg-pagespeed-ic-o9-Ca-Ezb186.webp" class="d-block w-50 mx-auto" alt="Laptop 3">
+                <div class="carousel-caption opacity-75 bg-secondary d-none d-md-block">
+                  <h5>Italian Mince Meatballs with a Ratatouilite sauce and whole wheat pasta</h5>
+                  <p>We’ve given this Italian-style dish a bit of a twist to make it a deliciously healthier version of the traditional Italian Meatballs dish, by incorporating whole-wheat pasta as the base for a tomato ratatouille and lean beef meatballs.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+            
+    </div>
+    <div class="row my-3">
+        <a href="#products">
+            <button class="btn btn-success">View More</button>
+        </a>
+    </div>
+
+       </section>
+       <section class="container" id="about">
+    <p class="lead shadow border border-success rounded-5" >
+        <span class="fs-1 text-success">Yummy!</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam ex commodi. Assumenda consequatur quo quidem quia ratione nobis harum, voluptatum repellat mollitia delectus illum ab possimus nesciunt eos beatae.
+      </div>
+      <div class="row">
+        <h3 class="display-3">Meet the team</h3>
+       </div>
+        <div class="row my-3">
+            <div class="col">
+                <img src="https://i.postimg.cc/bN8qtPN7/xff-about1-jpg-pagespeed-ic-j1o-La-GSy-FY.webp" class="img-fluid w-75 rounded-3 rounded-top-pill rounded-bottom-circle" alt="profile">
+            </div>
+            <div class="col">
+                <p class="lead">
+                    <span class="text-primary border rounded-3px-3">Anathi Josefu</span> 
+
+                </p>
+            </div>
+    <section class="container" id="products">
+        <div class="row my-3">
+            <h3 class="display-3">products</h3>
+        </div>
+        
+        <div class="row justify-content-end my-3">
+            <input class="form-control w-50" type="text" placeholder="search by product name" required>
+
+        </div>
+
+    </section>
+        </div>
+    </section>
+
+       <section class="container">
+
+       </section>
+       <section class="container">
+
+       </section>
+       <section class="container">
+
+       </section>
+       <section class="container">
+
+       </section class="container">
+
+
+      </main class="container"in>
+
       <footer class="container-fluid bg-dark">
           
       </footer>
